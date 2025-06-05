@@ -1,0 +1,191 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav-link {
+    display: none;
+  }
+  .address-post {
+    display: none;
+  }
+  section {
+    padding: 96px 0;
+  }
+  .burger-menu {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+  .burget-element {
+    width: 17px;
+    height: 3px;
+    background-color: #2f2f37;
+  }
+  .headerblock .container {
+    padding: 16px 16px;
+  }
+  .main-about {
+    padding: 72px 0;
+  }
+  .main-about .about-text-content {
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    max-width: 216px;
+    margin-bottom: 72px;
+  }
+  .strategy-studio-icon {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .strategy-studio-list {
+    flex-direction: column;
+    gap: 72px;
+  }
+  .strategy-studio-list > .strategy-studio-elements {
+    width: 100%;
+  }
+  .strategy-studio .third-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .post-text {
+    font-weight: 500;
+  }
+  .our-team-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+  }
+  .our-team .our-team-element {
+    max-width: 264px;
+    min-width: 264px;
+    margin: 0 auto;
+  }
+  .our-team-element img {
+    width: 100%;
+  }
+  .our-team-text .post-text {
+    font-weight: 400;
+  }
+  .our-portfolio-list {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .our-portfolio-elements {
+    max-width: 288px;
+    min-width: 288px;
+    margin: 0 auto;
+  }
+  .our-portfolio-img img {
+    width: 288px;
+    height: 280px;
+  }
+  .footer-container {
+    padding: 96px 0;
+  }
+  .footer-container .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .footer-title {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-container .post-text {
+    font-weight: 400;
+  }
+  .footer-icon-link {
+    margin-right: 0;
+  }
+  .footer-social {
+    margin-top: 72px;
+    margin-bottom: 72px;
+    margin-right: 0;
+  }
+  .footer-social-title {
+    text-align: center;
+  }
+  .footer-subscride-client {
+    flex-direction: column;
+  }
+  .footer-subscride-title {
+    text-align: center;
+  }
+  .footer-subscride-btn {
+    min-width: 165px;
+    margin: 0 auto;
+  }
+  .modal {
+    width: 288px;
+    min-height: 623px;
+    padding: 72px 16px 24px 16px;
+  }
+}
+/* ----------------------------- */
+@media (min-width: 768px) and (max-width: 1157px) {
+    section {
+        padding: 96px 0;
+    }
+  .address-post-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .address-link {
+    font-size: 12px;
+    padding: 0;
+  }
+  .title-name-first {
+    margin-right: 120px;
+  }
+  .main-about {
+    padding: 112px;
+  }
+  .strategy-studio-icon {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .strategy-studio .third-title {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .strategy-studio .post-text {
+    font-weight: 500;
+  }
+  .strategy-studio-list {
+    flex-wrap: wrap;
+    row-gap: 72px;
+  }
+  .strategy-studio-list > .strategy-studio-elements {
+    width: calc((100% - 24px) / 2);
+  }
+  .our-team-list {
+    flex-wrap: wrap;
+    row-gap: 64px;
+  }
+  .our-team .our-team-element {
+    width: calc((100% - 24px) / 2);
+  }
+}
+/* ----------------------------- */
+@media (min-width: 1158px) {
+}

@@ -35,7 +35,7 @@ fieldset {
   border: none;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -51,14 +51,12 @@ img {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.headerblock .container {
-  display: flex;
-}
 .nav-header {
   display: flex;
   align-items: center;
 }
 .headerblock .container {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -149,6 +147,9 @@ img {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+}
+.burger-menu {
+  display: none;
 }
 /* main-about */
 .main-about {
@@ -568,6 +569,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
+  align-items: center;
 }
 .modal-craft-checkbox {
   width: 16px;
@@ -583,6 +586,7 @@ img {
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+  flex-shrink: 0;
 }
 .visually-hidden:checked + .modal-label-policy > .modal-craft-checkbox {
   background-color: #404bbf;
@@ -598,7 +602,7 @@ img {
   border-radius: 4px;
   background-color: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;

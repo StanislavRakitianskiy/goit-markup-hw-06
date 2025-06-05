@@ -12,6 +12,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -55,6 +56,17 @@
             </li>
           </ul>
         </address>
+        <div class="burger-menu">
+          <svg class="burget-element one" width="17" height="3">
+            <use href="./images/icons.svg#icon-burger-element"></use>
+          </svg>
+          <svg class="burget-element two" width="17" height="3">
+            <use href="./images/icons.svg#icon-burger-element"></use>
+          </svg>
+          <svg class="burget-element theree" width="17" height="3">
+            <use href="./images/icons.svg#icon-burger-element"></use>
+          </svg>
+        </div>
       </div>
     </header>
     <!-- header -->
@@ -65,7 +77,9 @@
           <h1 class="about-text-content">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="about-button" data-modal-open>Order Service</button>
+          <button type="button" class="about-button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- main-about -->
@@ -581,7 +595,7 @@
     </footer>
     <!-- footer -->
     <!-- modal -->
-    <div class="modal-overlay is-open" data-modal>
+    <div class="modal-overlay" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="modal-svg" width="8" height="8">
@@ -662,13 +676,15 @@
                   <use href="./images/icons.svg#icon-vec"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a
-                href="https://megasport.ua/ru/static/politika-konfidentsiynosti/?srsltid=AfmBOooz2nsW5zhR_V8Mebo-VHTnmROVJFRx6x0CNjxiKH2bkQgrXzOt"
-                target="_blank"
-                class="modal-link-policy"
-                >Privacy Policy</a
-              ></label
+              <div class="modal-text-policy">
+                I accept the terms and conditions of the
+                <a
+                  href="https://megasport.ua/ru/static/politika-konfidentsiynosti/?srsltid=AfmBOooz2nsW5zhR_V8Mebo-VHTnmROVJFRx6x0CNjxiKH2bkQgrXzOt"
+                  target="_blank"
+                  class="modal-link-policy"
+                  >Privacy Policy</a
+                >
+              </div></label
             >
           </div>
           <button class="modal-button" type="submit">Send</button>
