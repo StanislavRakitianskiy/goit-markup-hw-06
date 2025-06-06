@@ -986,3 +986,12 @@ footer .post-text {
   }
 }
 /* ----------------------------- */
+@media (min-resolution: 2x) {
+  .main-about {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/x2/people-office@2x.jpg);
+  }
+}
