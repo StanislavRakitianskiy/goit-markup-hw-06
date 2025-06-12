@@ -653,12 +653,10 @@ img {
 }
 .footer-container .container {
   display: flex;
-  /* align-items: baseline; */
   align-items: center;
   flex-direction: column;
 }
 .footer-icon-link {
-  /* margin-right: 120px; */
   display: flex;
   flex-direction: column;
   margin-bottom: 72px;
@@ -693,7 +691,6 @@ footer .post-text {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 72px;
-  /* margin-right: 80px; */
 }
 .footer-social-title {
   font-family: "Roboto", sans-serif;
