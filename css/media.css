@@ -1,0 +1,189 @@
+@media screen and (min-width: 768px) {
+  .main-about {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-table-min.jpg);
+  }
+  @media screen and (min-resolution: 2x) {
+    .main-about {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-table-2x.jpg);
+    }
+  }
+  .main-about {
+    padding: 112px 0;
+  }
+  .main-about .about-text-content {
+    font-size: 56px;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+  .nav-link {
+    display: flex;
+  }
+  .address-post {
+    display: block;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .headerblock .container {
+    padding: 0 16px;
+  }
+  .title-name-first {
+    margin-right: 120px;
+  }
+  .strategy-studio-list {
+    row-gap: 72px;
+  }
+  .strategy-studio-list > .strategy-studio-elements {
+    width: calc((100% - 24px) / 2);
+  }
+  .strategy-studio-elements:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .third-title {
+    text-align: left;
+  }
+  .our-team-list {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  .our-team .third-title {
+    text-align: center;
+  }
+  .our-portfolio-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .our-portfolio-elements {
+    width: calc((100% - 24px) / 2);
+  }
+  .our-portfolio .container {
+    padding: 0;
+    max-width: 736px;
+  }
+  .footer-title {
+    align-self: flex-start;
+  }
+  .footer-container .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 24px;
+    row-gap: 72px;
+    max-width: 552px;
+    padding: 0;
+  }
+  .footer-icon-link {
+    margin-bottom: 0;
+  }
+  .footer-social {
+    margin: 0;
+    text-align: left;
+  }
+  .footer-subscride-title {
+    text-align: left;
+  }
+  .footer-subscride-client {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .main-about {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    max-width: 1440px;
+  }
+  @media screen and (min-resolution: 2x) {
+    .main-about {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office2x-min.jpg);
+    }
+  }
+  section {
+    padding: 120px 0;
+  }
+  .address-post-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .address-link {
+    font-size: 16px;
+    padding: 24px 0;
+  }
+  .title-name-first {
+    margin-right: 76px;
+  }
+  .main-about .about-text-content {
+    margin-bottom: 48px;
+  }
+  .main-about {
+    padding: 188px 0;
+  }
+  .strategy-studio-icon {
+    display: flex;
+  }
+  .strategy-studio-list > .strategy-studio-elements {
+    width: calc((100% - 24px) / 4);
+  }
+  .strategy-studio-list {
+    row-gap: 0;
+    flex-wrap: nowrap;
+  }
+  .third-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .our-team-list {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .our-team .our-team-element {
+    width: calc((100% - 24px) / 4);
+  }
+  .our-portfolio .container {
+    padding: 0 16px;
+  }
+  .our-portfolio-list {
+    row-gap: 48px;
+  }
+  .our-portfolio .container {
+    padding: 0 16px;
+    max-width: 1158px;
+  }
+  .our-portfolio-elements {
+    width: calc((100% - 48px) / 3);
+  }
+  .footer-icon-link {
+    margin-right: 120px;
+  }
+  .footer-container .container {
+    flex-wrap: nowrap;
+  }
+  .footer-container .container {
+    max-width: 1158px;
+    padding: 0 16px;
+    gap: 0;
+  }
+  .footer-social {
+    margin-right: 80px;
+  }
+  .footer-container {
+    padding: 100 0;
+  }
+  .footer-input {
+    border: 1px solid #fff;
+  }
+}
