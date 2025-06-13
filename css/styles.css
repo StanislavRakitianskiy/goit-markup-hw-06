@@ -156,8 +156,6 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
   cursor: pointer;
 }
 /* main-about */
@@ -429,9 +427,10 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
-  min-height: 584px;
-  padding: 72px 24px 24px 24px;
+  /* width: 408px; */
+  width: 288px;
+  /* min-height: 584px; */
+  padding: 72px 16px 24px 16px;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -807,6 +806,9 @@ footer .post-text {
   flex-direction: column;
 }
 /* modal-menu */
+.burget-element:nth-child(2n) {
+  margin: 3px 0;
+}
 .modal-menu {
   position: fixed;
   top: 0;
@@ -827,10 +829,14 @@ footer .post-text {
   pointer-events: auto;
 }
 .modal-menu-element {
-  padding: 72px 24px 40px 16px;
+  padding-top: 72px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  max-width: 288px;
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .modal-menu-close {
   display: flex;
@@ -872,10 +878,10 @@ footer .post-text {
 .nav-link-element-modal {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 700;
   color: #2e2f42;
   line-height: 1.1;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   position: relative;
   transition-property: color;
   transition-duration: 250ms;
@@ -899,9 +905,10 @@ footer .post-text {
 .address-link-modal {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+  font-weight: 500;
   color: #434455;
   line-height: 1.2;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   display: block;
   transition-property: color;
   transition-duration: 250ms;
