@@ -15,6 +15,9 @@
         url(../images/people-office-table-2x.jpg);
     }
   }
+  .container {
+    max-width: 768px;
+  }
   .main-about {
     padding: 112px 0;
   }
@@ -93,6 +96,10 @@
   .footer-subscride-client {
     flex-direction: row;
   }
+  .modal {
+    width: 408px;
+    min-height: 584px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .main-about {
@@ -111,6 +118,9 @@
         ),
         url(../images/people-office2x-min.jpg);
     }
+  }
+  .container {
+    max-width: 1158px;
   }
   section {
     padding: 120px 0;

@@ -35,7 +35,7 @@ fieldset {
   border: none;
 }
 .container {
-  max-width: 1158px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -427,9 +427,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* width: 408px; */
   width: 288px;
-  /* min-height: 584px; */
   padding: 72px 16px 24px 16px;
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -844,7 +842,7 @@ footer .post-text {
   align-items: center;
   position: absolute;
   top: 24px;
-  right: 24px;
+  right: 8px;
   background-color: #e7e9fc;
   border-radius: 50%;
   width: 24px;
