@@ -5,6 +5,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-table-min.jpg);
+      max-width: 768px;
   }
   @media screen and (min-resolution: 2x) {
     .main-about {
@@ -13,6 +14,7 @@
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office-table-2x.jpg);
+        max-width: 768px;
     }
   }
   .container {
@@ -103,6 +105,9 @@
   .modal-menu {
     display: none;
   }
+  .footer-input {
+    width: 264px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .main-about {
@@ -120,6 +125,7 @@
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office2x-min.jpg);
+      max-width: 1440px;
     }
   }
   .container {
@@ -208,5 +214,8 @@
   .our-portfolio-elements:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  }
+  .footer-subscride {
+    width: auto;
   }
 }
