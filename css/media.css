@@ -5,7 +5,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-table-min.jpg);
-      max-width: 768px;
+    max-width: 768px;
   }
   @media screen and (min-resolution: 2x) {
     .main-about {
@@ -14,7 +14,7 @@
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office-table-2x.jpg);
-        max-width: 768px;
+      max-width: 768px;
     }
   }
   .container {
@@ -107,6 +107,10 @@
   }
   .footer-input {
     width: 264px;
+  }
+  .strategy-studio-list {
+    gap: 24px;
+    row-gap: 72px;
   }
 }
 @media screen and (min-width: 1158px) {

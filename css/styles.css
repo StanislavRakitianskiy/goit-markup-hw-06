@@ -237,7 +237,6 @@ img {
 .strategy-studio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
 }
 .strategy-studio-icon {
   border: 1px solid #8e8f99;
